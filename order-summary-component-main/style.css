@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Outfit:wght@300;400;600;700&family=Oxanium:wght@300;400;500;600;700;800&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: RedHatDisplay, Arial, Helvetica, sans-serif;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 665px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px;
+    margin: 0px 24px;
+    line-height: 25px;
+}
+.text h1{
+    color: hsl(223, 47%, 23%);
+}
+.text p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0px 40px;
+    justify-content: center;
+    align-items:  center;
+}
+.price img{
+    width: 18%;
+    padding: 10px;
+    
+}
+.name{
+    margin-right: 110px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 0;
+}
+.name b{
+    padding: 0;
+    color: hsl(223, 47%, 23%);
+}
+.name p{
+    margin-top: 7px;
+    color: hsl(224, 23%, 55%);
+}
+.price a{
+    color: #766cf1;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.price a:hover{
+    text-decoration: none;
+}
+
+.buttons{
+    width: 100%;
+    padding: 30px;
+}
+.buttons button{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button_1{
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: #766cf1 0px 5px 15px;;
+}
+.button_1:hover{
+    background-color: #766cf1;
+}
+.button_2{
+    margin-top: 20px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    
+}
+.button_2:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
